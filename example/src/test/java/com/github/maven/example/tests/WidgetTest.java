@@ -29,7 +29,7 @@ public class WidgetTest {
 		Widget widget = new Widget();
 		widget.setEnabled(false);
 		assertFalse(widget.isEnabled());
-		widget.setEnabled(true);
+		widget.setEnabled(False);
 		assertTrue(widget.isEnabled());
 	}
 }
